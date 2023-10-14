@@ -190,3 +190,19 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    # Aplicación de Gestión de Productos
+
+Este programa es una aplicación de consola en C++ que permite gestionar una lista de productos. Proporciona las siguientes funcionalidades:
+
+1. **Agregar Producto**: Permite al usuario ingresar datos de un producto, como nombre, código, precio, proveedor, existencia, estado y descuento. Verifica si el código del producto ya existe en la lista antes de agregarlo. 
+
+2. **Buscar Producto**: Permite al usuario buscar un producto por su código o nombre. Si se encuentra un producto que coincide con el código o contiene el nombre ingresado, se muestran sus detalles.
+
+3. **Modificar Datos de un Producto**: Permite al usuario modificar los datos de un producto existente, excepto el código.
+
+4. **Cargar Datos**: Al iniciar la aplicación, verifica si el archivo "productos.txt" existe y, si es así, carga los datos de productos almacenados en el archivo en una lista de productos. Esto asegura que los datos previamente guardados estén disponibles para su manipulación.
+
+## Uso
+
+El programa muestra un menú con opciones
