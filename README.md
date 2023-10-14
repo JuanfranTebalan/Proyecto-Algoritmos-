@@ -48,8 +48,7 @@ void agregarProducto(vector<Producto>& productos, ofstream& archivo) {
     archivo << producto.nombre << " " << producto.codigo << " " << producto.precio << " " << producto.proveedor << " " << producto.existencia << " " << producto.estado << " " << producto.descuento << endl;
     cout << "Producto agregado con éxito." << endl;
 }
-
-// Función para buscar un producto por código o nombre
+Función para buscar un producto por código o nombre
 void buscarProducto(const vector<Producto>& productos, const string& clave) {
     for (const Producto& producto : productos) {
         if (producto.codigo == clave || producto.nombre.find(clave) != string::npos) {
