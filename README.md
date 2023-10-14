@@ -123,7 +123,7 @@ class Producto:
         self.estado = estado
         self.descuento = descuento
 
-# Función para agregar un producto al archivo
+Función para agregar un producto al archivo
 def agregar_producto(productos, archivo):
     nombre = input("Ingrese el nombre del producto: ")
     codigo = input("Ingrese el código del producto: ")
@@ -148,7 +148,7 @@ def agregar_producto(productos, archivo):
     
     print("Producto agregado con éxito.")
 
-# Función para buscar un producto por código o nombre
+Función para buscar un producto por código o nombre
 def buscar_producto(productos, clave):
     for producto in productos:
         if producto.codigo == clave or clave in producto.nombre:
